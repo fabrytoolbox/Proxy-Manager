@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Proxies>
+  <Proxy>
+    <Nome>Ufficio</Nome>
+    <Server>10.0.0.50</Server>
+    <Porta>8080</Porta>
+    <BypassList>*.local;192.168.*;10.*;&lt;local&gt;</BypassList>
+  </Proxy>
+  <Proxy>
+    <Nome>Casa</Nome>
+    <Server>192.168.1.1</Server>
+    <Porta>3128</Porta>
+    <BypassList>localhost;127.0.0.1</BypassList>
+  </Proxy>
+  <Proxy>
+    <Nome>America</Nome>
+    <Server>174.138.119.88</Server>
+    <Porta>80</Porta>
+    <BypassList>*.local</BypassList>
+  </Proxy>
+</Proxies>
